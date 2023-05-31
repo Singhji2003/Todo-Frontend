@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui; 
+  }
+  
+  body{
+    background: #6441a5;
+  }
+  .heading{
+    width: 29vw;
+    background: linear-gradient(to right, #5f2c82, #49a09d); color: white;
+    height: 60px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-left: 9vw;
+  }
+  .container{
+    background-color: white;
+    border-radius: 40px;
+    width: max-content;
+    padding-top:20px;
+    display: block;
+    margin: 10vh auto;
+    height: 520px;
+  }
+  .content{
+    margin: 29px;
+  }
+  .inputHead input{
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #2f2f66;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    padding-left:10px;
+    outline:none;
+  }
+svg{
+cursor: pointer;
+   color: #2f2f66;
+  }
+ svg:hover{
+  color: rgb(32, 95, 32);
+  }
+  .data{
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 15px;
+    line-height: 30px;
+  }
+  .data svg{
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .data svg:hover{
+    color: red;
+  }
+
+  .dataHead{
+    overflow-y:auto;
+    height: 320px;
+    scroll-behavior: smooth
+  }
